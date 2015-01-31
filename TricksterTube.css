@@ -1,0 +1,96 @@
+html{
+	width:1400px;
+}
+
+*{
+	text-align:center;
+}
+
+#title{
+	font:bold 25px Tahoma;
+	background:-webkit-linear-gradient(left,red,blue);
+	color:orange;
+	border:2px solid black;
+	text-align:center;
+	border-radius:5px;
+	margin:4px 20px;
+	box-shadow:rgba(2,2,2,0.9) 6px 6px 8px;
+	height:125px;
+	-webkit-box-flex:1;
+}
+
+h1{
+	text-shadow:rgba(2,2,2, 0.8) 4px 4px 8px;
+}
+#navigation_bar{
+	display:block;
+	font:bold 14px Tahoma;
+	border:2px solid red;
+	border-radius:5px;
+	margin:3px 20px;
+	background:-webkit-linear-gradient(top,blue,magenta);
+	color:red;
+	box-shadow:rgba(2,2,2,0.9) 6px 6px 8px;
+	-webkit-box-flex:1;
+	margin-top:5px;
+	float: left;
+}
+
+nav p{
+	border:2px solid yellow;
+	border-radius:5px;
+	padding:10px;
+	text-shadow:rgb(2,2,2) 4px 4px 8px;
+	display:block;
+}
+
+#navigation_bar:hover{
+	font:bold 15px Tahoma;
+}
+
+nav p:hover{
+	color:rgba(0,0,0, 0.9);
+	border:2px solid rgba(0,0,0, 0.9);
+}
+
+h2{
+	color:rgb(167,5,54);
+	font-style:15px bold Georgia;
+	float:left;
+}
+
+h4{
+	width:150px;
+	margin:20px 0px;
+	padding:30px;
+	background:#66cccc;
+	float:right;
+	margin:20px;
+}
+
+body{
+	background-color:rgb(34,163,134);
+}
+
+button{
+	border-radius:3px;
+	color:rgb(234,98,43);
+}
+
+video{
+	float:left;
+	background-color: rgb(255,121,6);
+	border-radius: 5px;	
+	margin:5px;
+	border:2px solid rgb(23,67,9);
+	padding-top:10px;
+}
+
+#cardTricks{
+	margin:85px;
+}
+
+#intro{
+	width:500px;
+	height:400px;
+}
